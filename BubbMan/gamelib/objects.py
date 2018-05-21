@@ -99,8 +99,6 @@ class Player(Collidable):
         self.right_images = [
             load_image("data/bubbman-1.png"),
             load_image("data/bubbman-2.png"),
-            load_image("data/bubbman-4.png"),
-            load_image("data/bubbman-5.png"),
         ]
         self.left_images = []
         for img in self.right_images:
